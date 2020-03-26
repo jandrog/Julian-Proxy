@@ -1,7 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Checkout from './Checkout';
+import Nav from '../src/components/Nav';
+import Ad from '../src/components/Ad';
+import Bar from '../src/components/Bar';
+import Fast from '../src/components/Fast';
+import Main from '../src/components/Main';
+import Related from '../src/components/Related';
+import Tabs from '../src/components/Tabs';
+import CoreParts from '../src/components/CoreParts';
+import Bottom from '../src/components/Bottom';
 
-
-ReactDOM.render(<Checkout />, document.getElementById('root'))
-
+// ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Ad />, document.getElementById('ad'))
+ReactDOM.render(<Nav />, document.getElementById('nav'))
+ReactDOM.render(<Bar />, document.getElementById('bar'))
+ReactDOM.render(<Fast />, document.getElementById('fast'))
+ReactDOM.render(<Main />, document.getElementById('main'))
+ReactDOM.render(<Related />, document.getElementById('related'))
+ReactDOM.render(<Tabs />, document.getElementById('tabs'))
+ReactDOM.render(<CoreParts />, document.getElementById('core'))
+ReactDOM.render(<Bottom />, document.getElementById('bottom'))
